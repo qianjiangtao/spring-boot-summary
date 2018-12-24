@@ -5,6 +5,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>spring-boot-simple</module>
+		<module>spring-boot-web</module>
+		<module>spring-boo-imge</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
