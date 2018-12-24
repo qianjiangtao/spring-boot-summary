@@ -77,10 +77,9 @@ public class App {
 
 ​	spring boot rest默认支持json格式响应，那么如何拓展呢？我们先要知道Spring Boot中处理HTTP请求的实现是采用的Spring MVC。而在Spring MVC中有一个消息转换器这个概念，它主要负责处理各种不同格式的请求数据进行处理，并包转换成对象 在Spring MVC中定义了`HttpMessageConverter`接口
 
-```
-HTTP请求的Content-Type有各种不同格式定义，如果要支持Xml格式的消息转换，就必须要使用对应的转换器。
+
+> HTTP请求的Content-Type有各种不同格式定义，如果要支持Xml格式的消息转换，就必须要使用对应的转换器。
 Spring MVC中默认已经有一套采用Jackson实现的转换器MappingJackson2XmlHttpMessageConverter
-```
 
 
 
