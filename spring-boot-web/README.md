@@ -1,4 +1,4 @@
-##一.静态资源访问
+## 一.静态资源访问
 
 ​	Spring Boot 默认为我们提供了静态资源处理，使用 WebMvcAutoConfiguration 中的配置各种属性 ,默认访问静态资源的顺序为:
 
@@ -51,7 +51,7 @@
 
 
 
-##二.模版引擎的使用
+## 二.模版引擎的使用
 
 Spring Boot提供了默认配置的模板引擎主要有以下几种（本文是基于spring boot 2.1.1.RELEASE）： 
 
@@ -81,7 +81,7 @@ Spring Boot提供了默认配置的模板引擎主要有以下几种（本文是
 
 
 
-###Thymeleaf的使用
+### Thymeleaf的使用
 
 1.套路一：引入spring-boot-starter-xxx.jar
 
@@ -128,7 +128,7 @@ public class MyThymeleafController {
 
 
 
-### Freemarker的使用
+###  Freemarker的使用
 
 1.套路一:引入spring-boot-starter-xxx.jar
 
@@ -174,7 +174,7 @@ public class MyFreemarkerController {
 
 
 
-## 三,Swagger的使用
+##  三,Swagger的使用
 
 至于swagger是什么这里就不说明了,直接上代码
 
