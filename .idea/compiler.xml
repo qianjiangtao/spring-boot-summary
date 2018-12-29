@@ -23,12 +23,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="spring-boo-imge" />
+        <module name="spring-boot-database" />
+        <module name="spring-boot-nosql" />
         <module name="spring-boot-simple" />
         <module name="spring-boot-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="druid" target="1.6" />
       <module name="spring-boo-imge" target="1.8" />
+      <module name="spring-boot-database" target="1.8" />
+      <module name="spring-boot-nosql" target="1.8" />
       <module name="spring-boot-simple" target="1.8" />
       <module name="spring-boot-summary" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
